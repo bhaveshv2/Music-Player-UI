@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artist Playlist</title>
+	<link rel="stylesheet" type="text/css" href="artist_CSS.css">
+	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/5af1b87095.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Header -->
+	<header id="body-header">
+		<!-- Navigation Fixed Bar -->
+		<div class="navigation-bar">
+			
+			<div id="header-icon">
+				<a href="Music_player_CN.html"><img src="images/Music_icon.png"></a>
+			</div>
+
+			<div class="horizontal-list">
+				<ul>
+					<li><a href="Music_player_CN.html">HOME</a></li>
+					<li><a href="#">DISCOVER</a></li>
+					<li><a href="#">RADIO</a></li>
+				</ul>
+			</div>
+
+			<div id="search" class="text-center">
+				<input type="text" name="search" id="search-bar" placeholder="Search your Music">
+				<button type="submit" id="search-button">
+        			<i class="fa fa-search"></i>
+     			</button>
+			</div>
+
+			<div id="sign-in">
+				<button>
+					SIGN IN
+				</button>
+			</div>
+		</div>
+
+		<!-- About the artist -->
+		<div class="about-artist">
+			<div class="artist-image">
+				<img src="images/similar-artist-main.png">
+			</div>
+			<div class="artist-description">
+				<div class="artist-name">
+					<h2>COLDPLAY</h2>
+					<p>British Band</p>
+					<p> 851 followers</p>
+					<p style="font-size: 0.9rem;font-weight: 700;">
+						Coldaplay is a British music band that has enjoyed continuous success since their inception in 1996 through their intelligent and soulful songs. The band members are Chris Martin (lead vocals), Jonny Buckland(Lead Guitar), Guy Berryman(bass guitar) and Will Champion(drums).
+					</p>
+				</div>
+				<div id="follow-button">
+					<button>
+						FOLLOW
+					</button>
+				</div>
+				<div class="albums-count">
+					<span>247 Tracks | 128 Albums</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Similar Artists -->
+		<div class="similar-artist">
+			<div class="similar-artist-heading">
+				<h2>SIMILAR ARTISTS</h2>
+			</div>
+
+			<div class="similar-artist-container">
+				<div class="single-artist-container">
+					<div class="similar-artist-img">
+						<img src="images/similar-artist-1.jpg">
+					</div>
+					<div class="playlist-name">
+						<h3>
+							LINKIN PARK
+						</h3>
+					</div>
+				</div>
+
+				<div class="single-artist-container">
+					<div class="similar-artist-img">
+						<img src="images/similar-artist-2.jfif">
+					</div>
+					<div class="playlist-name">
+						<h3>
+							THE LOCAL TRAIN
+						</h3>
+					</div>
+				</div>
+
+				<div class="single-artist-container">
+					<div class="similar-artist-img">
+						<img src="images/similar-artist-3.jfif">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							AVENGED SEVENFOLD
+						</h4>
+					</div>
+				</div>
+
+				<div class="single-artist-container">
+					<div class="similar-artist-img">
+						<img src="images/similar-artist-4.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							PINK FLOYD
+						</h4>
+					</div>
+				</div>
+
+				<div class="single-artist-container">
+					<div class="similar-artist-img">
+						<img src="images/similar-artist-5.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							THE BEATLES
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--Main section page  -->
+	<div class="main-section">
+
+		<!-- Categories of Music -->
+		<div class="main-music">
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-1.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Paradise
+					</h4>
+					<p>04:39</p>
+				</div>
+				<!-- <div class="like">
+					<input id="toggle-heart" type="checkbox"/>
+				</div> -->
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-2.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Something Just Like This
+					</h4>
+					<p>04:07</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-3.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Hymn for the Weekend
+					</h4>
+					<p>04:18</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-4.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						A Sky full of Stars
+					</h4>
+					<p>04:28</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-5.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Paradise
+					</h4>
+					<p>04:18</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-6.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Yellow
+					</h4>
+					<p>04:30</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-7.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						The Scientist
+					</h4>
+					<p>05:09</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-8.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Viva la Vida
+					</h4>
+					<p>04:02</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-9.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						up&up
+					</h4>
+					<p>06:45</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-10.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Adventure of A Lifetime
+					</h4>
+					<p>04:23</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-11.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Fix-You
+					</h4>
+					<p>04:54</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-12.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Hypnotised
+					</h4>
+					<p>05:55</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-13.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Magic
+					</h4>
+					<p>04:45</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-14.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Clocks
+					</h4>
+					<p>04:18</p>
+				</div>
+			</div>
+			<div class="tracks">
+				<div class="track-img">
+					<img src="images/track-15.jpg">
+				</div>
+				<div class="track-name">
+					<h4>
+						Everglow
+					</h4>
+					<p>04:42</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Favourite Music -->
+		<div class="fav-playlist">
+			<div class="my-playlist-name-container">
+				<h2>RECENTLY PLAYED</h2>
+			</div>
+			
+			<div class="playlist-container">
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-1.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Feels
+						</h4>
+						<p>Calvin Harris</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-2.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Feel me
+						</h4>
+						<p>
+							Selena Gomez
+						</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-3.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Hypnagogic
+						</h4>
+						<p>Calvin Harris</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-4.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Bekhayali
+						</h4>
+						<p>Arijit Singh, Kabir Singh</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-5.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Prada
+						</h4>
+						<p>Jass Manak</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-6.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Tajdar-e-Haram
+						</h4>
+						<p>Coke Studio, Atif Aslam</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-7.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Apna Time Aayega
+						</h4>
+						<p>Gully boy</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-8.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							NUMB
+						</h4>
+						<p>Linkin Park</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-9.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Believer
+						</h4>
+						<p>Imagine Dragons</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-10.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Shape of You
+						</h4>
+						<p>Ed-Shereen</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-10.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Divide
+						</h4>
+						<p>Ed-Shereen</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-11.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Wolves
+						</h4>
+						<p>Selena Gomez, Marshmellow</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-12.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Gustaakh
+						</h4>
+						<p>The Local Train</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-12.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Mizaaz
+						</h4>
+						<p>The Local Train</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-12.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Aaoge tum Kabhi
+						</h4>
+						<p>The Local Train</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bottom Player -->
+	<div class="fixed-bottom">
+		<div class="current-track">
+			<div id="current-track-image">
+				<img src="images/playlist-9.jpg">
+			</div>
+			<div id="current-track-description">
+				<h6>Believer</h6>
+				<p>Imagine Dragons</p>
+				<div class="like">
+					<input id="toggle-heart" type="checkbox"/>
+				</div>
+			</div>
+		</div>
+		<div class="play-pause-slider">
+			<div class="play-pause-icon text-center">
+				<a href="#""><i class="fas fa-random"></i></a>
+				<a href="#""><i class="fas fa-step-backward"></i></a>
+				<a href="#""><i class="fas fa-play play"></i></a>
+				<a href="#""><i class="fas fa-step-forward"></i></a>
+				<a href="#""><i class="fas fa-redo"></i></a>
+			</div>
+			<div id="bar">
+				<span style="font-size: 0.8rem">0.00</span>
+				<input type="range" min="1" max="100" value="50" name="slider" class="slider">
+				<span style="font-size: 0.8rem">5:00</span>
+			</div>
+		</div>
+		<div class="volume">
+			<i class="fas fa-volume-down"></i>
+			<input type="range" min="1" max="100" value="50" name="slider" class="slider">
+			<i class="fas fa-volume-up"></i>
+		</div>
+	</div>
+</body>
+</html>

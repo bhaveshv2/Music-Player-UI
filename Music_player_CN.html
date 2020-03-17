@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player(CN)</title>
+	<link rel="stylesheet" type="text/css" href="Homepage_CSS.css">
+	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/5af1b87095.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Header -->
+	<header id="body-header">
+		<div class="navigation-bar">
+			<!-- Icon -->
+			<div id="header-icon">
+				<a href="Music_player_CN.html"><img src="images/Music_icon.png"></a>
+			</div>
+
+			<div class="horizontal-list">
+				<ul>
+					<li><a href="Music_player_CN.html">HOME</a></li>
+					<li><a href="#">DISCOVER</a></li>
+					<li><a href="#">RADIO</a></li>
+				</ul>
+			</div>
+
+			<div id="search" class="text-center">
+				<input type="text" name="search" id="search-bar" placeholder="Search your Music">
+				<button type="submit" id="search-button">
+        			<i class="fa fa-search"></i>
+     			</button>
+			</div>
+
+			<div id="sign-in">
+				<button>
+					SIGN IN
+				</button>
+			</div>
+		</div>
+
+		<div class="carousel">
+			<div class="carousel-album">
+				<img src="images/indie.jpg">
+			</div>
+			<div class="carousel-album">
+				<img src="images/arijit.jpg">
+			</div>
+			<div class="carousel-album">
+				<img src="images/bryan.jpg">
+			</div>
+		</div>
+	</header>
+
+	<!--Main section page  -->
+	<div class="main-section">
+
+		<!-- Categories of Music -->
+		<div class="main-music">
+			<div class="category">
+				<div class="category-heading">
+					<h3>LATEST REALEASE</h3>
+				</div>
+				<div class="album-container">
+					<div class="album-art">
+						<img src="images/latest-release-1.jpg">
+						<div class="album-name">
+							<h4>
+								Laadki
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/latest-release-2.jpg">
+						<div class="album-name">
+							<h4>
+								Shayad
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/latest-release-3.jpg">
+						<div class="album-name">
+							<h4>
+								MAP OF THE SOUL 7
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/latest-release-4.jpg">
+						<div class="album-name">
+							<h4>
+								Kamariya
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/latest-release-5.jpg">
+						<div class="album-name">
+							<h4>
+								Attention
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="category">
+				<div class="category-heading">
+					<h3>POPULAR ARTIST</h3>
+				</div>
+				<div class="album-container">
+					<div class="album-art">
+						<a href="Artist_HTML.html" class="album-popular">
+							<img src="images/artist-1.jpg">
+							<div class="play-icon">
+								<i class="fas fa-play-circle"></i>
+							</div>
+						</a>
+					</div>
+					<div class="album-art">
+						<a href="Artist_HTML.html" class="album-popular">
+							<img src="images/artist-2.jfif">
+							<div class="play-icon">
+								<i class="fas fa-play-circle"></i>
+							</div>
+						</a>
+					</div>
+					<div class="album-art">
+						<a href="Artist_HTML.html" class="album-popular">
+							<img src="images/artist-3.jpg">
+							<div class="play-icon">
+								<i class="fas fa-play-circle"></i>
+							</div>
+						</a>
+					</div>
+					<div class="album-art">
+						<a href="Artist_HTML.html" class="album-popular">
+							<img src="images/artist-4.jfif">
+							<div class="play-icon">
+								<i class="fas fa-play-circle"></i>
+							</div>
+						</a>
+					</div>
+					<div class="album-art">
+						<a href="Artist_HTML.html" class="album-popular">
+							<img src="images/artist-5.jfif">
+							<div class="play-icon">
+								<i class="fas fa-play-circle"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="category">
+				<div class="category-heading">
+					<h3>GENRE PLAYLISTS</h3>
+				</div>
+				<div class="album-container">
+					<div class="album-art album-popular">
+						<img src="images/genre-1.jfif">
+						<div class="album-name">
+							<h4>
+								ROCK
+							</h4>
+						</div>
+					</div>
+					<div class="album-art album-popular">
+						<img src="images/genre-2.jpg">
+						<div class="album-name">
+							<h4>
+								LOVE
+							</h4>
+						</div>
+					</div>
+					<div class="album-art album-popular">
+						<img src="images/genre-3.jpg">
+						<div class="album-name">
+							<h4>
+								POP
+							</h4>
+						</div>
+					</div>
+					<div class="album-art album-popular">
+						<img src="images/genre-4.jpg">	
+						<div class="album-name">
+							<h4>
+								WORKOUT
+							</h4>
+						</div>				
+					</div>
+					<div class="album-art album-popular">
+						<img src="images/genre-5.jpg">
+						<div class="album-name">
+							<h4>
+								RETRO
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="category">
+				<div class="category-heading ">
+					<h3>POPULAR HINDI</h3>
+				</div>
+				<div class="album-container">
+					<div class="album-art">
+						<img src="images/hindi-1.jpg">
+						<div class="album-name">
+							<h4>
+								Tera Ghata
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/hindi-2.jpg">
+						<div class="album-name">
+							<h4>
+								Vaaste
+							</h4>
+						</div>					
+					</div>
+					<div class="album-art">
+						<img src="images/hindi-3.jpg">
+						<div class="album-name">
+							<h4>
+								Duniya
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/hindi-4.jpg">
+						<div class="album-name">
+							<h4>
+								Tujhe Kitna Chahne lage
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/hindi-5.jpg">
+						<div class="album-name">
+							<h4>
+								Tareefan
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="category">
+				<div  class="category-heading">
+					<h3>POPULAR ENGLISH</h3>
+				</div>
+				<div class="album-container">
+					<div class="album-art">
+						<img src="images/english-1.jpg">
+						<div class="album-name">
+							<h4>
+								Senorita
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/english-2.jpg">
+						<div class="album-name">
+							<h4>
+								On My Way
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/english-3.jpg">					
+						<div class="album-name">
+							<h4>
+								Girls Like You
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/english-4.jpg">					
+						<div class="album-name">
+							<h4>
+								Attention
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/english-5.jpg">
+						<div class="album-name">
+							<h4>
+								Here With ME
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="category">
+				<div  class="category-heading">
+					<h3>POPULAR PUNJABI</h3>
+				</div>
+				<div class="album-container">
+					<div class="album-art">
+						<img src="images/punjabi-1.jpg">
+						<div class="album-name">
+							<h4>
+								Prada
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/punjabi-2.jpg">
+						<div class="album-name">
+							<h4>
+								Shopping
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/punjabi-3.jpg">					
+						<div class="album-name">
+							<h4>
+								Duji Vaar Pyaar
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/punjabi-4.jpg">					
+						<div class="album-name">
+							<h4>
+								Relation
+							</h4>
+						</div>
+					</div>
+					<div class="album-art">
+						<img src="images/punjabi-5.jpg">
+						<div class="album-name">
+							<h4>
+								Kya Baat Ay
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Favourite Music -->
+		<div class="fav-playlist">
+			<div class="my-playlist-name-container">
+				<h2>RECENTLY PLAYED</h2>
+			</div>
+			
+			<div class="playlist-container">
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-1.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Feels
+						</h4>
+						<p>Calvin Harris</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-2.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Feel me
+						</h4>
+						<p>
+							Selena Gomez
+						</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-3.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Hypnagogic
+						</h4>
+						<p>Calvin Harris</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-4.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Bekhayali
+						</h4>
+						<p>Arijit Singh, Kabir Singh</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-5.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Prada
+						</h4>
+						<p>Jass Manak</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-6.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Tajdar-e-Haram
+						</h4>
+						<p>Coke Studio, Atif Aslam</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-7.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Apna Time Aayega
+						</h4>
+						<p>Gully boy</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-8.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							NUMB
+						</h4>
+						<p>Linkin Park</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-9.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Believer
+						</h4>
+						<p>Imagine Dragons</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-10.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Shape of You
+						</h4>
+						<p>Ed-Shereen</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-10.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Divide
+						</h4>
+						<p>Ed-Shereen</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-11.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Wolves
+						</h4>
+						<p>Selena Gomez, Marshmellow</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-12.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Gustaakh
+						</h4>
+						<p>The Local Train</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+						
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-12.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Mizaaz
+						</h4>
+						<p>The Local Train</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+				<div class="fav-songs-container">
+					<div class="playlist-img">
+						<img src="images/playlist-12.jpg">
+					</div>
+					<div class="playlist-name">
+						<h4>
+							Aaoge tum Kabhi
+						</h4>
+						<p>The Local Train</p>
+					</div>
+					<div class="like">
+						<input id="toggle-heart" type="checkbox"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bottom Player -->
+	<div class="fixed-bottom">
+		<div class="current-track">
+			<div id="current-track-image">
+				<img src="images/playlist-9.jpg">
+			</div>
+			<div id="current-track-description">
+				<h6>Believer</h6>
+				<p>Imagine Dragons</p>
+				<div class="like">
+					<input id="toggle-heart" type="checkbox"/>
+				</div>
+			</div>
+		</div>
+		<div class="play-pause-slider">
+			<div class="play-pause-icon text-center">
+				<a href="#""><i class="fas fa-random"></i></a>
+				<a href="#""><i class="fas fa-step-backward"></i></a>
+				<a href="#""><i class="fas fa-play play"></i></a>
+				<a href="#""><i class="fas fa-step-forward"></i></a>
+				<a href="#""><i class="fas fa-redo"></i></a>
+			</div>
+			<div id="bar">
+				<span style="font-size: 0.8rem">0.00</span>
+				<input type="range" min="1" max="100" value="50" name="slider" class="slider">
+				<span style="font-size: 0.8rem">5:00</span>
+			</div>
+		</div>
+		<div class="volume">
+			<i class="fas fa-volume-down"></i>
+			<input type="range" min="1" max="100" value="50" name="slider" class="slider">
+			<i class="fas fa-volume-up"></i>
+		</div>
+	</div>
+</body>
+</html>
